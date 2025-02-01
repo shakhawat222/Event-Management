@@ -1,0 +1,26 @@
+/* assets/css/responsive.css */
+
+@media (max-width: 768px) {
+    .login-container, .register-container, .dashboard, .event-form {
+        width: 90%;
+    }
+
+    .dashboard table th, .dashboard table td {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-container, .register-container, .dashboard, .event-form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    form input, form select, .event-form input, .event-form textarea, .event-form select {
+        font-size: 14px;
+    }
+
+    .dashboard table th, .dashboard table td {
+        padding: 8px;
+    }
+}
